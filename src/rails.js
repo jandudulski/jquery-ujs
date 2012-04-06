@@ -430,7 +430,7 @@
       }
     );
 
-    e.preventDefault();
+    event.preventDefault();
   });
 
   $(document).delegate(rails.formSubmitSelector, 'ajax:beforeSend.rails', function(event) {
